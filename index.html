@@ -303,17 +303,16 @@
                 <div class="container">
                     <p class="d-inline-flex gap-1">
                     <h2>FAQ</h2>
-                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-                           aria-expanded="false" aria-controls="multiCollapseExample1">Как купить?</a>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                                aria-controls="multiCollapseExample2">Как доставить?
-                        </button>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                                aria-controls="multiCollapseExample1 multiCollapseExample2">Какая гарантия?
-                        </button>
-                    </p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                       aria-expanded="false" aria-controls="multiCollapseExample1">Как купить?</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Как доставить?
+                    </button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                            aria-controls="multiCollapseExample1 multiCollapseExample2">Какая гарантия?
+                    </button>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -337,6 +336,47 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Название товара</th>
+                            <th scope="col">Цена за штуку</th>
+                            <th scope="col">Количество</th>
+                            <th scope="col">Итоговая сумма</th>
+                            <th scope="col">Статус заказа</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Товар 1</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>500</td>
+                            <td class="table-primary">Новый</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Товар 2</td>
+                            <td>200</td>
+                            <td>5</td>
+                            <td>1000</td>
+                            <td class="table-warning">Обработка</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Товар 3</td>
+                            <td>100</td>
+                            <td>1</td>
+                            <td>100</td>
+                            <td class="table-danger">Отмена</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
                 </div>
 
             </div>
